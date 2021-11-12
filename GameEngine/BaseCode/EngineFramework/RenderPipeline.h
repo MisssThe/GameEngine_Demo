@@ -8,7 +8,7 @@
 #define GAMEENGINE_RENDERPIPELINE_H
 
 #include <queue>
-#include "../Components/Render/BaseRender.h"
+#include "GraphEngine/Function/BaseRender.h"
 #include "../Components/GameObject.h"
 #include "EngineSetting.h"
 

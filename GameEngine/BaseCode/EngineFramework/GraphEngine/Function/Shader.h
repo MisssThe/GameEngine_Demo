@@ -20,12 +20,13 @@ public:
     enum ShaderDataType
     {
         INT,FLOAT,UINT,BOOL,
-        VEC2,VEC3,VEC4,IVEC2,IVEC3,IVEC4,UVEC2,UVEC3,UVEC4,BVEC2,BVEC3,BVEC4,
+        VEC2,VEC3,VEC4,I_VEC2,I_VEC3,I_VEC4,U_VEC2,U_VEC3,U_VEC4,B_VEC2,B_VEC3,B_VEC4,
         MAT2,MAT3,MAT4,
+        SAMPLER2D,SAMPLER_CUBE
     };
 private:
     int shaderID;
-    std::unordered_map<ShaderDataType,std::unordered_map<std::string,std::string>> uniformMap;
+    std::unordered_map<std::string ,int> uniformMap;
 public:
     Shader(std::string shaderPath)
     {
@@ -39,8 +40,8 @@ public:
         codeMap.insert(std::pair<std::string,int>(fCode,GL_FRAGMENT_SHADER));
         this->shaderID = glCreateProgram();
         this->attachShader(codeMap);
-//        this->scanProperty(vCode,ShaderType::VERTEX);
-//        this->scanProperty(fCode,ShaderType::FRAGMENT);
+        this->scanProperty(vCode);
+        this->scanProperty(fCode);
     }
     Shader(std::string vertexShaderPath,std::string fragmentShaderPath,std::string geometryShaderPath)
     {
@@ -58,12 +59,37 @@ public:
     {
         glUseProgram(this->shaderID);
     }
-//    void setInt(int index,int num);
-//    void setFloat(int index,float num)
-//    {
-//        glUniform1f()
-//    }
-//    void setTexture(int index);
+    template<class ...Args> void setInt(std::string name,Args ...args)
+    {
+        std::vector<float> vec = CommonUtils::UnpackArgs<float>(args...);
+        int length = vec.size();
+        int location = this->uniformMap.at(name);
+        switch (length)
+        {
+            case 1:
+                glUniform1f(location,vec[0]);
+                break;
+            case 2:
+                glUniform2f(location,vec[0],vec[1]);
+                break;
+            case 3:
+                glUniform3f(location,vec[0],vec[1],vec[2]);
+                break;
+            case 4:
+                glUniform4f(location,vec[0],vec[1],vec[2],vec[3]);
+                break;
+        }
+    }
+    void setUInt();
+    void setFloat();
+    void setBool();
+    void setTexture()
+    {
+
+    }
+    void setMatrix()
+    {
+    }
 private:
     void checkCompile(unsigned int shader, bool isProgram = false)
     {
@@ -110,25 +136,19 @@ private:
         );
         checkCompile(this->shaderID, true);
     }
-    void scanProperty(std::string code,ShaderDataType type)
+    void scanProperty(std::string code)
     {
         int firstPos = code.find(UNIFORM_BEGIN);
         int lastPos = code.rfind(UNIFORM_END);
         std::string uniformStr = code.substr(firstPos + UNIFORM_LENGTH, lastPos - firstPos - UNIFORM_LENGTH);
         std::vector<std::string> vec = CommonUtils::Split(uniformStr,";\n");
-//        if (uniformMap.find(type) == uniformMap.end())
-//        {
-//            uniformMap.insert(std::pair<ShaderType,std::unordered_map<std::string,std::string>>(type,std::unordered_map<std::string,std::string>()));
-//        }
-        std::unordered_map<std::string,std::string>*map = &uniformMap.at(type);
-//        CommonUtils::TraverVector<std::string>(vec,
-//           [&map](std::string str)
-//           {
-//                std::vector<std::string> vec = CommonUtils::Split(str," ");
-//                map->insert(std::pair<std::string,std::string>(vec[2],vec[1]));
-//                glGetUniformLocation(shaderID,)
-//           }
-//        );
+        CommonUtils::TraverVector<std::string>(vec,
+           [this](std::string str)
+           {
+                std::vector<std::string> vec = CommonUtils::Split(str," ");
+                this->uniformMap.insert(std::pair<std::string,int>(vec[1],glGetUniformLocation(this->shaderID,vec[1].c_str())));
+           }
+        );
     }
 };
 

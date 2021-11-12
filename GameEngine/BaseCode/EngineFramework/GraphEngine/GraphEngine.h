@@ -1,6 +1,6 @@
 //
 // Created by MisThe on 2021/11/4.
-// 图形渲染必须loop于主线程
+// 图形渲染必须loop于主线程（可以使用wglMakeCurrent进行context线程切换但开销过高，且部分API必须在主线程使用）
 //
 
 #ifndef GAMEENGINE_GRAPHENGINE_H
@@ -9,29 +9,54 @@
 
 #include "Function/Shader.h"
 #include "../EngineSetting.h"
+#include "../../Components/GameObject.h"
+#include "Function/BaseRender.h"
 
 class GraphEngine
 {
 public:
 private:
     static GraphEngine* engine;
-    struct EngineWindow
+    class EngineWindow
     {
     public:
         EngineWindow(GLFWwindow*window):window(window){}
         ~EngineWindow()
         {
-            CommonUtils::StopThread(threadId);
+            CommonUtils::TraverQueue<BaseRender*>(this->renderQueue,
+                  [](BaseRender* render)
+                  {
+                     delete render;
+                  }
+           );
         }
-    public:
+        void render()
+        {
+            CommonUtils::TraverQueue<BaseRender*>(this->renderQueue,
+                 [](BaseRender* render)
+                 {
+                    render->Use();
+                 }
+             );
+            glfwSwapBuffers(this->window);
+        }
+    private:
+        void addRender(BaseRender* object,int window = 0)
+        {
+            if (object != nullptr)
+            {
+                renderQueue.push(object);
+            }
+        }
+    private:
+        std::queue<BaseRender*> renderQueue;
         GLFWwindow* window;
-        int threadId;
+        int windowId;
     };
     std::vector<EngineWindow*> windowVec;
 public:
     ~GraphEngine()
     {
-
     }
     static GraphEngine* GetEngine()
     {
@@ -75,29 +100,19 @@ private:
             GameLog::LogError("Engine Init","init glad failed");
         }
         windowVec.push_back(new EngineWindow(window));
-        while (true)
-        {
-            glClear(GL_COLOR_BUFFER_BIT);
-            glfwSwapBuffers(windowVec[0]->window);
-            glfwPollEvents();
-        }
     }
     void runWindows()
     {
-        CommonUtils::TraverVector<EngineWindow*>(this->windowVec,
-         [](EngineWindow* window)
-          {
-            window->threadId = CommonUtils::StartThread(
-                [&window]()
-                {
-                    glfwSwapBuffers(window->window);
-                }, true
-            );
-          }
-        );
+//        while (true)
+//        {
+            glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
+            CommonUtils::TraverVector<EngineWindow *>(this->windowVec,[](EngineWindow* ew){ew->render();});
+            glfwPollEvents();
+//        }
     }
 };
 
 
 #endif
+
 //GAMEENGINE_GRAPHENGINE_H

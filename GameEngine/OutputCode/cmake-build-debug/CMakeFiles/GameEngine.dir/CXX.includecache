@@ -10,7 +10,7 @@
 KHR/khrplatform.h
 -
 
-/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.h
+/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h
 vector
 -
 queue
@@ -20,9 +20,9 @@ json.h
 iostream
 -
 Time.h
-/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.h
+/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h
 GameLog.h
-/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.h
+/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.h
 fstream
 -
 thread
@@ -30,29 +30,33 @@ thread
 unordered_map
 -
 
-/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.h
+/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.h
 string
 -
 fstream
 -
 Time.h
-/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.h
+/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h
 iostream
 -
 
-/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.h
+/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h
 string
 -
 time.h
 -
 
-/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.h
-stdlib.h
--
-../CommonUtils/CommonUtils.h
-/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.h
+/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp
+Material.h
+/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.h
 
-/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h
+/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.h
+../../../CommonUtils/CommonUtils.h
+/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h
+Shader.h
+/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h
+
+/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h
 string
 -
 glad.h
@@ -60,25 +64,7 @@ glad.h
 glfw3.h
 -
 ../../../CommonUtils/CommonUtils.h
-/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.h
-
-/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp
-GraphEngine.h
-/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.h
-
-/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.h
-Function/Shader.h
-/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h
-../EngineSetting.h
-/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.h
-
-/Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp
-iostream
--
-EngineFramework/GraphEngine/Function/Shader.h
-/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h
-EngineFramework/GraphEngine/GraphEngine.h
-/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.h
+/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h
 
 /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h
 stddef.h

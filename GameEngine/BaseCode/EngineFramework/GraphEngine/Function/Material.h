@@ -8,6 +8,7 @@
 
 
 #include "../../../CommonUtils/CommonUtils.h"
+#include "Shader.h"
 
 struct RenderType
 {
@@ -21,9 +22,14 @@ public:
     {
 
     }
-    void addShader()
+    void addShader(std::string path,int type)
     {
-
+        if (this->shaderMap.find(type) == this->shaderMap.end())
+        {
+            this->shaderMap.insert(std::pair<int,std::queue<Shader*>*>(type,new std::queue<Shader*>()));
+        }
+        std::queue<Shader*>* queue = this->shaderMap.at(type);
+        queue->push(new Shader(path));
     }
     void renderWithType()
     {
@@ -44,7 +50,7 @@ public:
 //         );
     }
 private:
-//    std::queue<Shader> shaderQueue;
+    std::unordered_map<int,std::queue<Shader*>*> shaderMap;
 };
 
 

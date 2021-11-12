@@ -1,4 +1,4 @@
-# Install script for directory: /Users/tandijie/MisThe/GameEngine/OutputCode
+# Install script for directory: /Users/tandijie/GameEngine_Demo/GameEngine/OutputCode
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

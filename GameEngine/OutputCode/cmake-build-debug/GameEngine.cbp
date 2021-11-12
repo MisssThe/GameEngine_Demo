@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug"/>
+				<Option working_dir="/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug"/>
+				<Option working_dir="/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug"/>
+				<Option working_dir="/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="GameEngine">
-				<Option output="/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/GameEngine" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug"/>
+				<Option output="/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/GameEngine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -60,15 +60,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 GameEngine"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 GameEngine"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="GameEngine/fast">
-				<Option output="/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/GameEngine" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug"/>
+				<Option output="/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/GameEngine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -89,110 +89,110 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 GameEngine/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 GameEngine/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Component.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Component.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Model.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Model.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Texture.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Texture.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/RenderPipeline.h">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/RenderPipeline.h">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/glad.c">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp">
 			<Option target="GameEngine"/>
 		</Unit>
-		<Unit filename="/Users/tandijie/MisThe/GameEngine/OutputCode/CMakeLists.txt">
+		<Unit filename="/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

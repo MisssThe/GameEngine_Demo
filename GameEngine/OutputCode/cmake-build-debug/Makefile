@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tandijie/MisThe/GameEngine/OutputCode
+CMAKE_SOURCE_DIR = /Users/tandijie/GameEngine_Demo/GameEngine/OutputCode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles /Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles /Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,341 +129,365 @@ GameEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/build
 .PHONY : GameEngine/fast
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.o: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.i: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.s: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.s
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.o: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.i: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.s: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.s
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.o: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.i: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.s: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.s
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.o: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.i: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.s: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp.s
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.o: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.i: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.s: Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.s
 
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.o: Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.i: Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.s: Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.s
 
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.o: Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.i: Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.s: Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.s
 
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.o: Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.i: Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.s: Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.s
 
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.o: Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.i: Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.s: Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.s
 
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.o: Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.i: Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.s: Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.s
 
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.o: Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.i: Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.s: Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.s
 
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.o: Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.i: Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.s: Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.s
 
-Users/tandijie/MisThe/GameEngine/BaseCode/glad.o: Users/tandijie/MisThe/GameEngine/BaseCode/glad.c.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/glad.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/glad.c.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/glad.c.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/glad.i: Users/tandijie/MisThe/GameEngine/BaseCode/glad.c.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/glad.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/glad.c.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/glad.c.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/glad.s: Users/tandijie/MisThe/GameEngine/BaseCode/glad.c.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/glad.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/glad.c.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/glad.c.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c.s
 
-Users/tandijie/MisThe/GameEngine/BaseCode/main.o: Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/main.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.o
 
 # target to build an object file
-Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp.o
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp.o
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.o
 
-Users/tandijie/MisThe/GameEngine/BaseCode/main.i: Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/main.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.i
 
 # target to preprocess a source file
-Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp.i
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp.i
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.i
 
-Users/tandijie/MisThe/GameEngine/BaseCode/main.s: Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/main.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.s
 
 # target to generate assembly for a file
-Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp.s
-.PHONY : Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp.s
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.s
+
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.o: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.o
+
+# target to build an object file
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.o
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.o
+
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.i: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.i
+
+# target to preprocess a source file
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.i
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.i
+
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.s: Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.s
+
+# target to generate assembly for a file
+Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.s
+.PHONY : Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.s
 
 # Help Target
 help:
@@ -474,48 +498,51 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GameEngine"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.s"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.s"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.s"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.s"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.s"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.s"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.s"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.s"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.s"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.s"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.s"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.s"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/glad.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/glad.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/glad.s"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/main.o"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/main.i"
-	@echo "... Users/tandijie/MisThe/GameEngine/BaseCode/main.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.s"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.o"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.i"
+	@echo "... Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.s"
 .PHONY : help
 
 

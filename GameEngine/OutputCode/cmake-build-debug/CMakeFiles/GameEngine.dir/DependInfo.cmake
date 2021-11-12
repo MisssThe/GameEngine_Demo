@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/glad.c" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/glad.c.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/glad.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -25,19 +25,20 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/Cellar/stb_image/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.o"
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.o"
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.o"
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/GameLog.cpp.o"
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/CommonUtils/Time.cpp.o"
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/GameObject.cpp.o"
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.o"
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/BaseRender.cpp.o"
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/Components/Render/RenderFilter.cpp.o"
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/Engine.cpp.o"
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.o"
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.o"
-  "/Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp" "/Users/tandijie/MisThe/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/MisThe/GameEngine/BaseCode/main.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/ClassFactory.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameEngine2D.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.o"
+  "/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp" "/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

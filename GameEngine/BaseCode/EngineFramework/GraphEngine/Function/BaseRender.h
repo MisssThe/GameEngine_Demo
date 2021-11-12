@@ -8,8 +8,8 @@
 #define GAMEENGINE_BASERENDER_H
 
 
-#include "../Component.h"
-#include "../../EngineFramework/GraphEngine/Function/Material.h"
+#include "../../../Components/Component.h"
+#include "Material.h"
 
 class BaseRender : Component
 {

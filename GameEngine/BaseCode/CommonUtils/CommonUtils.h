@@ -18,6 +18,11 @@
 #include <unordered_map>
 
 class CommonUtils {
+private:
+    template<class T> static void unpackArgs(std::vector<T>* vec,T arg)
+    {
+        vec->push_back(arg);
+    }
 public:
     template<class T> static T SafeCall(std::function<T(int)> func,int n)
     {
@@ -177,6 +182,12 @@ public:
             GameLog::LogError("ReadFile","file read failed");
         }
         return code;
+    }
+    template<class T,class ...Args> static std::vector<T> UnpackArgs(Args ... args)
+    {
+        std::vector<T> vec;
+        int arg[] = {(unpackArgs(&vec,args),0)...};
+        return vec;
     }
 private:
     struct Thread
