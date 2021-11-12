@@ -45,17 +45,23 @@ public:
     {
         func(t,q);
     }
-    template<class T> static void TraverQueue(std::queue<T> queue,std::function<void(T)> func)
+
+    template<class T> static void TraverQueue(std::queue<T>* queue,std::function<void(T)> func)
     {
-        int length = queue.size();
-        if (length > 0) {
-            auto element = queue.front();
+        int length = queue->size();
+        if (length > 0)
+        {
+            auto element = queue->front();
             for (int i = 0; i < length; ++i) {
                 func(element);
-                queue.pop();
-                queue.push(element);
+                queue->pop();
+                queue->push(element);
             }
         }
+    }
+    template<class T> static void TraverQueue(std::queue<T> queue,std::function<void(T)> func)
+    {
+        TraverQueue(&queue,func)
     }
     template<class T> static void TraverVector(std::vector<T> vec,std::function<void(T)> func)
     {

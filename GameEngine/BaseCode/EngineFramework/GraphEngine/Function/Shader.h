@@ -26,6 +26,7 @@ public:
     };
 private:
     int shaderID;
+    int textureNum;
     std::unordered_map<std::string ,int> uniformMap;
 public:
     Shader(std::string shaderPath)
@@ -59,7 +60,7 @@ public:
     {
         glUseProgram(this->shaderID);
     }
-    template<class ...Args> void setInt(std::string name,Args ...args)
+    template<class ...Args> void setFloat(std::string name,Args ...args)
     {
         std::vector<float> vec = CommonUtils::UnpackArgs<float>(args...);
         int length = vec.size();
@@ -80,15 +81,15 @@ public:
                 break;
         }
     }
-    void setUInt();
-    void setFloat();
-    void setBool();
-    void setTexture()
+    void setTexture(std::string name,int tex)
     {
-
+        int location = this->uniformMap.at(name);
+        glUniform1i(location,tex);
+        this->textureNum++;
     }
     void setMatrix()
     {
+
     }
 private:
     void checkCompile(unsigned int shader, bool isProgram = false)
@@ -138,6 +139,7 @@ private:
     }
     void scanProperty(std::string code)
     {
+        this->textureNum = 0;
         int firstPos = code.find(UNIFORM_BEGIN);
         int lastPos = code.rfind(UNIFORM_END);
         std::string uniformStr = code.substr(firstPos + UNIFORM_LENGTH, lastPos - firstPos - UNIFORM_LENGTH);

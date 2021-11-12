@@ -31,17 +31,29 @@ public:
         std::queue<Shader*>* queue = this->shaderMap.at(type);
         queue->push(new Shader(path));
     }
-    void renderWithType()
+    void renderWithType(int type)
     {
-//        CommonUtils::TraverQueue<Shader>(this->shaderQueue,
-//             [](Shader shader)
-//             {
-//                 shader.Use();
-//             }
-//        );
+        CommonUtils::TraverQueue<Shader*>(this->shaderMap.at(type),
+             [](Shader* shader)
+             {
+                 shader->Use();
+             }
+        );
     }
+    //不建议使用（部分测试用）
     void render()
     {
+        CommonUtils::TraverMap<int,std::queue<Shader*>*>(this->shaderMap,
+           [](int type,std::queue<Shader*>* queue)
+           {
+                CommonUtils::TraverQueue<Shader*>(queue,
+                  [](Shader* shader)
+                  {
+                        shader->Use();
+                  }
+              );
+           }
+        );
 //        CommonUtils::TraverQueue<Shader>(this->shaderQueue,
 //            [](Shader shader)
 //            {
@@ -51,6 +63,11 @@ public:
     }
 private:
     std::unordered_map<int,std::queue<Shader*>*> shaderMap;
+private:
+    void renderOneShader()
+    {
+        //调用shader-》绑定顶点数据-》设置texture-》设置额外数据
+    }
 };
 
 
