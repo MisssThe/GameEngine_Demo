@@ -5,22 +5,56 @@
 #ifndef MODEL_H
 #define MODEL_H
 
-#include <glad/glad.h>
-
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <stb_image.h>
-#include <assimp/Importer.hpp>
-#include <assimp//scene.h>
-#include <assimp/postprocess.h>
-
-#include <string>
-#include <fstream>
-#include <sstream>
-#include <iostream>
-#include <map>
+//#include <glad/glad.h>
+//
+//#include <glm/glm.hpp>
+//#include <glm/gtc/matrix_transform.hpp>
+//#include <stb_image.h>
+//#include <assimp/Importer.hpp>
+//#include <assimp//scene.h>
+//#include <assimp/postprocess.h>
+//
+//#include <string>
+//#include <fstream>
+//#include <sstream>
+//#include <iostream>
+//#include <map>
 #include <vector>
-using namespace std;
+
+class Mesh
+{
+public:
+    Mesh(unsigned int VAO)
+    {
+        this->VAO = VAO;
+    }
+    //测试用，后续会废弃禁止使用
+    Mesh(std::vector<float> vertex,std::vector<unsigned int> index)
+    {
+        unsigned int VBO, EBO;
+        glGenVertexArrays(1, &this->VAO);
+        glGenBuffers(1, &VBO);
+        glGenBuffers(1, &EBO);
+        glBindVertexArray(this->VAO);
+        glBindBuffer(GL_ARRAY_BUFFER, VBO);
+        glBufferData(GL_ARRAY_BUFFER, sizeof(float) * vertex.size(), &vertex[0], GL_STATIC_DRAW);
+        glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+        glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(unsigned int) * index.size(), &index[0], GL_STATIC_DRAW);
+        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+        glEnableVertexAttribArray(0);
+        glBindBuffer(GL_ARRAY_BUFFER, 0);
+        glBindVertexArray(0);
+    }
+    void Use()
+    {
+        glBindVertexArray(this->VAO);
+    }
+private:
+    unsigned int VAO;
+};
+
+
+
 //
 //unsigned int TextureFromFile(const char *path, const string &directory, bool gamma = false);
 //

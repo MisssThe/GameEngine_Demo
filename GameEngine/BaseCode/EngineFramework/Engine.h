@@ -7,40 +7,35 @@
 #ifndef GAMEENGINE_ENGINE_H
 #define GAMEENGINE_ENGINE_H
 
-#include <glad.h>
-#include <glfw3.h>
-#include <queue>
-
 #include "EngineSetting.h"
 #include "../Components/GameObject.h"
 #include "../CommonUtils/CommonUtils.h"
 #include "../CommonUtils/GameLog.h"
-
-typedef struct LoopFunc
-{
-    int funcId;
-    void (*func)();
-}LoopFunc;
+#include "GraphEngine/GraphEngine.h"
+#include "../ShowWindow.h"
+#include "../AttriWindow.h"
 
 class Engine
 {
 public:
-
+    static void Init()
+    {
+        if (engine == nullptr)
+        {
+            engine = new Engine();
+        }
+        EngineSetting::RefreshEngineSetting();
+        ShowWindow sw;
+        AttriWindow aw;
+    }
+    static void Run()
+    {
+        GraphEngine::RunWindows();
+    }
 private:
-    static std::queue<GameObject>*loopQueue;
-    GLFWwindow *window;
-    std::vector<int> threadVec;
-public:
-    Engine();
-    ~Engine();
-    GLFWwindow* createWindow();
-    void run();
-    void pause();
-    void stop();
-    void addObject(GameObject obj);
-    static std::queue<GameObject>* GetLoopQueue();
+    Engine(){}
 private:
-    void initGraphic();
+    static Engine*engine;
 };
 
 #endif

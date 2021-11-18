@@ -30,7 +30,7 @@ void GameObject::deleterComponent()
 
 Component* GameObject::GetComponent()
 {
-
+    return nullptr;
 }
 
 //deleterComponentint GameObject::getComponentLength()

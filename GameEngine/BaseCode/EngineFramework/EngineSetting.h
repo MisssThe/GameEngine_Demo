@@ -9,27 +9,28 @@
 #include "../CommonUtils/CommonUtils.h"
 
 //-------structure--------
-struct Color
+struct ShaderPath
 {
-public:
-    explicit Color(float r = 0,float g = 0,float b = 0,float a = 0):r(r),g(g),b(b),a(a){}
-    Color(std::string color)
+    ShaderPath(std::string name,std::string path1,std::string path2,std::string path3,std::string path4):shaderName(name),vertexPath(path1),fragmentPath(path2),tessellationPath(path3),geometryPath(path4){}
+    ShaderPath(std::string name,std::vector<std::string> vec)
     {
-        std::vector<std::string> vec = CommonUtils::Split(color,",");
-        float colorNum[4] = {0};
-        int len1,len2;
-        len1 = vec.size();
-        len2 = CommonUtils::ArrayLength(colorNum);
-        for (int i = 0; i < len1 && i < len2; ++i)
-        {
-            colorNum[i] = std::stof(vec[i]);
-        }
-        this->r = colorNum[0];
-        this->g = colorNum[1];
-        this->b = colorNum[2];
-        this->a = colorNum[3];
+        shaderName = name;
+        shaderLength = vec.size();
+        if (shaderLength > 0)
+            vertexPath = vec[0];
+        if (shaderLength > 1)
+            fragmentPath = vec[1];
+        if (shaderLength > 2)
+            tessellationPath = vec[2];
+        if (shaderLength > 3)
+            geometryPath = vec[3];
     }
-    float r,g,b,a;
+    std::string shaderName;
+    std::string vertexPath;
+    std::string fragmentPath;
+    std::string tessellationPath;
+    std::string geometryPath;
+    int shaderLength;
 };
 //-------structure--------
 
@@ -37,16 +38,20 @@ class EngineSetting
 {
 public:
     static void RefreshEngineSetting();
-    static int GetScreenWidth();
-    static int GetScreenHeight();
-    static Color GetBackColor();
+    static float GetScreenWidth(int index = 0);
+    static float GetScreenHeight(int index = 0);
+    static Color GetBackColor(int index = 0);
+    static std::vector<ShaderPath>* GetShaders(int index = 0);
     static void CheckState();
 private:
-    static int screen_width;
-    static int screen_height;
+    static std::vector<float> screen_width;
+    static std::vector<float> screen_height;
     static bool is_ready;
     static std::string setting_path;
-    static Color back_color;
+    static std::vector<Color> back_color;
+    static std::vector<std::vector<ShaderPath>*> shader_path;
+    static int setNum_window;
+    static int setNum_shader;
 };
 
 #endif

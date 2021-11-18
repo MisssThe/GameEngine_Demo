@@ -11,35 +11,56 @@
 #include "../EngineSetting.h"
 #include "../../Components/GameObject.h"
 #include "Function/BaseRender.h"
+#include "BasePipeline.h"
 
 class GraphEngine
 {
 public:
 private:
+    Float2 screenResolution;
     static GraphEngine* engine;
     class EngineWindow
     {
     public:
-        EngineWindow(GLFWwindow*window):window(window){}
+        EngineWindow(GLFWwindow*window,int windowId):window(window){this->windowId = windowId;}
         ~EngineWindow()
         {
-            CommonUtils::TraverQueue<BaseRender*>(this->renderQueue,
-                  [](BaseRender* render)
-                  {
-                     delete render;
-                  }
-           );
+            glfwMakeContextCurrent(this->window);
+            CommonUtils::SafeCall(this->func);
+            glfwDestroyWindow(this->window);
+//            CommonUtils::TraverQueue<BaseRender*>(this->renderQueue,
+//                  [](BaseRender* render)
+//                  {
+//                     delete render;
+//                  }
+//           );
         }
-        void render()
+        void setDestroyCallBack(std::function<void()> func)
         {
-            CommonUtils::TraverQueue<BaseRender*>(this->renderQueue,
-                 [](BaseRender* render)
-                 {
-                    render->Use();
-                 }
-             );
-            glfwSwapBuffers(this->window);
+            this->func = func;
         }
+        void useWindow()
+        {
+            glfwMakeContextCurrent(this->window);
+        }
+        bool render()
+        {
+            //待优化
+            if (glfwWindowShouldClose(this->window)) {
+                return false;
+            }
+            glfwMakeContextCurrent(this->window);
+            glClear(GL_COLOR_BUFFER_BIT);
+            BasePipeline::Render(this->windowId);
+            glfwSwapBuffers(this->window);
+            return true;
+        }
+        int getId()
+        {
+            return this->windowId;
+        }
+        GLFWwindow* window;
+
     private:
         void addRender(BaseRender* object,int window = 0)
         {
@@ -50,31 +71,54 @@ private:
         }
     private:
         std::queue<BaseRender*> renderQueue;
-        GLFWwindow* window;
         int windowId;
+//        GLFWwindow* window;
+        std::function<void()> func;
     };
-    std::vector<EngineWindow*> windowVec;
+    std::queue<EngineWindow*> windowQueue;
+    int windowNum = -1;     //为了管理shader需要创建一次不保留的window
 public:
     ~GraphEngine()
     {
+        CommonUtils::TraverQueue<EngineWindow*>(this->windowQueue,[](EngineWindow* ew)
+        {
+            delete ew;
+        });
     }
     static GraphEngine* GetEngine()
     {
         engine = (engine == nullptr)?(new GraphEngine()):engine;
         return engine;
     }
-    static void AddWindow()
+    static int AddWindow(int setIndex)
     {
-        GetEngine()->addWindow();
+        return GetEngine()->addWindow(setIndex);
     }
     static void RunWindows()
     {
         GetEngine()->runWindows();
     }
+    static void DeleteWindow(int windowIndex)
+    {
+        GetEngine()->deleteWindow(windowIndex);
+    }
+    static void SetVSync(bool flag)
+    {
+        //受硬件和驱动影响不一定有效
+        glfwSwapInterval(flag);
+    }
 private:
     GraphEngine()
     {
+        initEvent();
         init();
+    }
+
+    void initEvent()
+    {
+        EventCenter::AddEvent("UseWindow",[this](int index){ this->useWindow(index);});
+        EventCenter::AddEvent("AddWindow",[](long index){ *(int*)index = GraphEngine::AddWindow(index);});
+        EventCenter::AddEvent("DeleteWindow",[](int index){GraphEngine::DeleteWindow(index);});
     }
     void init()
     {
@@ -85,10 +129,24 @@ private:
 #ifdef __APPLE__
         glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 #endif
+        //获取屏幕参数
+        int monitorCount;
+        GLFWmonitor** monitor = glfwGetMonitors(&monitorCount);
+        const GLFWvidmode* videoMode = glfwGetVideoMode(monitor[0]);
+        this->screenResolution = Float2(videoMode->width,videoMode->height);
     }
-    void addWindow()
+    void useWindow(int index)
     {
-        GLFWwindow* window = glfwCreateWindow(EngineSetting::GetScreenWidth(), EngineSetting::GetScreenHeight(), "LearnOpenGL", nullptr, nullptr);
+        CommonUtils::TraverQueue<EngineWindow*>(this->windowQueue,[&index](EngineWindow*ew){
+            if (ew->getId() == index)
+            {
+                ew->useWindow();
+            }
+        });
+    }
+    int addWindow(int setIndex)
+    {
+        GLFWwindow* window = glfwCreateWindow(EngineSetting::GetScreenWidth(setIndex) * this->screenResolution.x, EngineSetting::GetScreenHeight(setIndex) * this->screenResolution.y, "LearnOpenGL", nullptr, nullptr);
         if (window == nullptr)
         {
             glfwTerminate();
@@ -99,16 +157,29 @@ private:
         {
             GameLog::LogError("Engine Init","init glad failed");
         }
-        windowVec.push_back(new EngineWindow(window));
+        Color backColor = EngineSetting::GetBackColor(setIndex);
+        glClearColor(backColor.r,backColor.g,backColor.b,backColor.a);
+        this->windowNum++;
+        ShaderController::CompileShader(this->windowNum);
+        windowQueue.push(new EngineWindow(window,this->windowNum));
+        return windowNum;
     }
     void runWindows()
     {
-//        while (true)
-//        {
-            glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
-            CommonUtils::TraverVector<EngineWindow *>(this->windowVec,[](EngineWindow* ew){ew->render();});
+        //执行后主线程被完全占用
+        std::function<bool(EngineWindow*)> func = [](EngineWindow*ew){ if (ew->render()){return true;}delete ew; return false;};
+        while (this->windowQueue.size() > 0)
+        {
+            CommonUtils::TraverQueueBool<EngineWindow*>(&this->windowQueue,func);
             glfwPollEvents();
-//        }
+//            std::cout << Time::CalculateFrame() << std::endl;
+        }
+        glfwTerminate();
+    }
+    void deleteWindow(int id)
+    {
+        std::function<bool(EngineWindow*)> func = [&id](EngineWindow*ew){ if (ew->getId() == id){delete ew;return false;}return true;};
+        CommonUtils::TraverQueueBool<EngineWindow*>(&this->windowQueue,func);
     }
 };
 

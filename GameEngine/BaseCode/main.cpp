@@ -1,13 +1,9 @@
-
-
-#include <iostream>
-#include "EngineFramework/GraphEngine/Function/Shader.h"
-#include "EngineFramework/GraphEngine/GraphEngine.h"
-
+#include "EngineFramework/Engine.h"
 
 int main()
 {
-    GraphEngine::AddWindow();
-    GraphEngine::RunWindows();
+    EngineSetting::RefreshEngineSetting();
+    Engine::Init();
+    Engine::Run();
     return 0;
 }

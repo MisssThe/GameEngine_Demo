@@ -30,6 +30,9 @@ CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Com
 CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp.o: \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.cpp \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp.o: \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.h
 CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp.o: \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Component.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.cpp \
@@ -37,20 +40,85 @@ CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Com
 CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.o: \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.h
-CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.o: \
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp.o: \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.h
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp.o: \
+ //usr/local/Cellar/glad/include/glad/glad.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Model.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.h \
+ /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/allocator.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/config.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/forwards.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/json.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/json_features.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/reader.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/value.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/version.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/writer.h
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp.o: \
  //usr/local/Cellar/glad/include/glad/glad.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Component.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/BaseUI.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIImage.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIText.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Model.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.h \
+ /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/allocator.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/config.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/forwards.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/json.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/json_features.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/reader.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/value.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/version.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/writer.h
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp.o: \
+ //usr/local/Cellar/glad/include/glad/glad.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/AttriWindow.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Component.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/BaseUI.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIImage.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIText.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.cpp \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Model.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/RenderPipeline.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.h \
  /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h \
  /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/allocator.h \
  /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/config.h \
@@ -76,16 +144,58 @@ CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Eng
  /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/value.h \
  /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/version.h \
  /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/writer.h
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp.o: \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/allocator.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/config.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/forwards.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/json.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/json_features.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/reader.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/value.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/version.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/writer.h
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp.o: \
+ //usr/local/Cellar/glad/include/glad/glad.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Model.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.h \
+ /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/allocator.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/config.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/forwards.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/json.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/json_features.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/reader.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/value.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/version.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/writer.h
 CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp.o: \
  //usr/local/Cellar/glad/include/glad/glad.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Component.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.cpp \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Model.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.h \
  /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h \
  /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/allocator.h \
  /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/config.h \
@@ -101,9 +211,13 @@ CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Eng
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Model.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.h \
  /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h \
  /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/allocator.h \
  /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/config.h \
@@ -122,11 +236,220 @@ CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Eng
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Component.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Model.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.h \
+ /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/allocator.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/config.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/forwards.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/json.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/json_features.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/reader.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/value.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/version.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/writer.h
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp.o: \
+ //usr/local/Cellar/glad/include/glad/glad.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.h \
+ /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/allocator.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/config.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/forwards.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/json.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/json_features.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/reader.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/value.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/version.h \
+ /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/writer.h
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp.o: \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Component.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.h \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/common.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/_fixes.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/_swizzle.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/_swizzle_func.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/_vectorize.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/compute_common.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/compute_vector_relational.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_common.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_common_simd.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_exponential.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_exponential_simd.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_geometric.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_geometric_simd.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_integer.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_integer_simd.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_matrix.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_matrix_simd.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_packing.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_packing_simd.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_trigonometric.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_trigonometric_simd.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_vector_relational.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_vector_relational_simd.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/qualifier.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/setup.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_half.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_half.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat2x2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat2x2.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat2x3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat2x3.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat2x4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat2x4.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat3x2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat3x2.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat3x3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat3x3.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat3x4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat3x4.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x2.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x3.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4_simd.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec1.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec1.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec2.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec3.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec4.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec4_simd.inl \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/exponential.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double2x2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double2x2_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double2x3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double2x3_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double2x4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double2x4_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double3x2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double3x2_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double3x3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double3x3_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double3x4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double3x4_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double4x2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double4x2_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double4x3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double4x3_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double4x4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_double4x4_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float2x2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float2x2_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float2x3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float2x3_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float2x4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float2x4_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float3x2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float3x2_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float3x3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float3x3_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float3x4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float3x4_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float4x2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float4x2_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float4x3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float4x3_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float4x4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_float4x4_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_int_sized.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_uint_sized.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_bool2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_bool2_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_bool3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_bool3_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_bool4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_bool4_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_double2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_double2_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_double3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_double3_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_double4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_double4_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_float2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_float2_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_float3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_float3_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_float4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_float4_precision.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int2_sized.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int3_sized.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int4_sized.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint2_sized.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint3_sized.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint4_sized.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/fwd.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/geometric.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/glm.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/integer.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/mat3x2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/mat3x3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/mat3x4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/mat4x2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/mat4x3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/mat4x4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/matrix.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/packing.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/simd/common.h \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/simd/exponential.h \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/simd/geometric.h \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/simd/integer.h \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/simd/matrix.h \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/simd/neon.h \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/simd/platform.h \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/trigonometric.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/vec2.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/vec3.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/vec4.hpp \
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/vector_relational.hpp
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp.o: \
+ //usr/local/Cellar/glad/include/glad/glad.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Component.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/BaseUI.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIImage.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Model.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.h \
  /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h \
  /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/allocator.h \
  /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/config.h \
@@ -139,16 +462,27 @@ CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Eng
  /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/writer.h
 CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.o: \
  //usr/local/Cellar/glad/include/glad/glad.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/AttriWindow.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/CommonUtils.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/GameLog.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/Time.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Component.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/GameObject.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/BaseUI.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIImage.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIText.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/Engine.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EngineSetting.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/BaseRender.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Model.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Shader.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.h \
+ /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.h \
  /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp \
  /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h \
  /usr/local/Cellar/jsoncpp/1.9.4_1/include/json/allocator.h \

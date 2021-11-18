@@ -17,23 +17,26 @@ const int UNIFORM_LENGTH        = UNIFORM_BEGIN.length() + 1;
 class Shader
 {
 public:
-    enum ShaderDataType
-    {
-        INT,FLOAT,UINT,BOOL,
-        VEC2,VEC3,VEC4,I_VEC2,I_VEC3,I_VEC4,U_VEC2,U_VEC3,U_VEC4,B_VEC2,B_VEC3,B_VEC4,
-        MAT2,MAT3,MAT4,
-        SAMPLER2D,SAMPLER_CUBE
-    };
+
 private:
     int shaderID;
     int textureNum;
     std::unordered_map<std::string ,int> uniformMap;
+    std::string name;
 public:
-    Shader(std::string shaderPath)
+    //不建议使用
+    Shader(std::string name,int ID)
     {
+        this->shaderID = ID;
+        this->name = name;
     }
-    Shader(std::string vertexShaderPath,std::string fragmentShaderPath)
+    Shader(std::string shaderName,std::string shaderPath)
     {
+        this->name = shaderName;
+    }
+    Shader(std::string shaderName,std::string vertexShaderPath,std::string fragmentShaderPath)
+    {
+        this->name = shaderName;
         std::string vCode = CommonUtils::ReadFile(vertexShaderPath);
         std::string fCode = CommonUtils::ReadFile(fragmentShaderPath);
         std::unordered_map<std::string,int> codeMap;
@@ -44,13 +47,13 @@ public:
         this->scanProperty(vCode);
         this->scanProperty(fCode);
     }
-    Shader(std::string vertexShaderPath,std::string fragmentShaderPath,std::string geometryShaderPath)
+    Shader(std::string shaderName,std::string vertexShaderPath,std::string fragmentShaderPath,std::string geometryShaderPath)
     {
-
+        this->name = shaderName;
     }
-    Shader(std::string vertexShaderPath,std::string fragmentShaderPath,std::string tessellationShaderPath,std::string geometryShaderPath)
+    Shader(std::string shaderName,std::string vertexShaderPath,std::string fragmentShaderPath,std::string tessellationShaderPath,std::string geometryShaderPath)
     {
-
+        this->name = shaderName;
     }
     ~Shader()
     {
@@ -90,6 +93,10 @@ public:
     void setMatrix()
     {
 
+    }
+    std::string getName()
+    {
+        return this->name;
     }
 private:
     void checkCompile(unsigned int shader, bool isProgram = false)
@@ -135,6 +142,7 @@ private:
                glDeleteShader(shader);
            }
         );
+        glLinkProgram(this->shaderID);
         checkCompile(this->shaderID, true);
     }
     void scanProperty(std::string code)

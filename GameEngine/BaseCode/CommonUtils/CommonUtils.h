@@ -24,22 +24,31 @@ private:
         vec->push_back(arg);
     }
 public:
-    template<class T> static T SafeCall(std::function<T(int)> func,int n)
+//    template<class ...Args> static void SafeCall(std::function<void(Args)...> func,Args ...args)
+//    {
+//        if (func != nullptr)
+//        {
+//            func(args...);
+//        }
+//    }
+    template<class T> static void SafeCall(std::function<void(T)> func,T n)
     {
-        return func(n);
+        if (func != nullptr)
+        {
+            func(n);
+        }
     }
     static void SafeCall(std::function<void()> func)
     {
-        func();
+        if (func != nullptr) {
+            func();
+        }
     }
     template<class T> static T SafeCall(std::function<T()> func)
     {
         return func();
     }
-    template<class T> static void SafeCall(std::function<void(T)> func,T item)
-    {
-        func(item);
-    }
+
 
     template<class T,class Q> static void SafeCall(std::function<void(T,Q)> func,T t,Q q)
     {
@@ -51,24 +60,49 @@ public:
         int length = queue->size();
         if (length > 0)
         {
-            auto element = queue->front();
+            T element;
             for (int i = 0; i < length; ++i) {
+                element = queue->front();
                 func(element);
                 queue->pop();
                 queue->push(element);
             }
         }
     }
-    template<class T> static void TraverQueue(std::queue<T> queue,std::function<void(T)> func)
+    //避免隐式转换，func会改变queue的结构
+    template<class T> static void TraverQueueBool(std::queue<T>* queue,std::function<bool(T)> func)
     {
-        TraverQueue(&queue,func)
+        if (queue != nullptr) {
+            int length = queue->size();
+            if (length > 0) {
+                T element;
+                for (int i = 0; i < length; ++i) {
+                    element = queue->front();
+                    if (func(element)) {
+                        queue->push(element);
+                    }
+                    queue->pop();
+                }
+            }
+        }
     }
+    template<class T>  static void TraverQueue(std::queue<T> queue,std::function<void(T)> func)
+    {
+        TraverQueue(&queue,func);
+    }
+    template<class T> static void TraverVector(std::vector<T>*vec,std::function<void(T)> func)
+    {
+        if (vec != nullptr) {
+            int length = vec->size();
+            for (int i = 0; i < length; ++i) {
+                SafeCall<T>(func, vec->at(i));
+            }
+        }
+    }
+
     template<class T> static void TraverVector(std::vector<T> vec,std::function<void(T)> func)
     {
-        for (auto item:vec)
-        {
-            SafeCall<T>(func,item);
-        }
+        TraverVector(&vec,func);
     }
 
 //    template<class T,class Q,class W> static void TraverVector(std::vector<T> vec,std::function<void(T,Q,W)> func)
@@ -91,6 +125,8 @@ public:
         Json::CharReaderBuilder reader;
         JSONCPP_STRING errs;
         Json::parseFromStream(reader, jsonFile, &root, &errs);
+        jsonFile.close();
+        GameLog::LogError("ReadJson",errs, false);
         return root;
     }
     static void WriteJson()
@@ -138,26 +174,26 @@ public:
         if (endless)
         {
             thread = new std::thread(
-                [](std::function<void()> func,int threadId)
-                {
-                    while (true)
+                    [](std::function<void()> func,int threadId)
                     {
-                        SafeCall(func);
-                        if (CommonUtils::thread_map.at(threadId)->endFlag)
+                        while (true)
                         {
-                            return;
+                            SafeCall(func);
+                            if (CommonUtils::thread_map.at(threadId)->endFlag)
+                            {
+                                return;
+                            }
                         }
-                    }
-                },func,threadId
+                    },func,threadId
             );
         }
         else
         {
             thread = new std::thread(
-                [](std::function<void()> func)
-                {
-                    SafeCall(func);
-                },func
+                    [](std::function<void()> func)
+                    {
+                        SafeCall(func);
+                    },func
             );
         }
         Thread* value = new Thread(thread);
@@ -214,6 +250,37 @@ private:
     static std::unordered_map<int,Thread*> thread_map;
     static int base_thread_id;
 };
+//----------------------------- CommonStructures ----------------------------------
+struct Color
+{
+public:
+    explicit Color(float r = 0,float g = 0,float b = 0,float a = 0):r(r),g(g),b(b),a(a){}
+    Color(std::string color)
+    {
+        std::vector<std::string> vec = CommonUtils::Split(color,",");
+        float colorNum[4] = {0};
+        int len1,len2;
+        len1 = vec.size();
+        len2 = CommonUtils::ArrayLength(colorNum);
+        for (int i = 0; i < len1 && i < len2; ++i)
+        {
+            colorNum[i] = std::stof(vec[i]);
+        }
+        this->r = colorNum[0];
+        this->g = colorNum[1];
+        this->b = colorNum[2];
+        this->a = colorNum[3];
+    }
+    float r,g,b,a;
+};
+struct Float2
+{
+public:
+    Float2():x(0),y(0){};
+    Float2(float x,float y):x(x),y(y){};
+    float x,y;
+};
+//----------------------------- CommonStructures ----------------------------------
 
 #endif
 

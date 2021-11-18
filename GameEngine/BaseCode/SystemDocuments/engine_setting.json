@@ -1,6 +1,24 @@
 {
-  "engine_model" : "Editor",
-  "screen_width" : 1920,
-  "screen_height": 1080,
-  "back_color"   : "0,0,0,1"
+  "window_set" : {
+    "set_0": {
+      "engine_model": "Editor",
+      "screen_width": 0.9,
+      "screen_height": 0.9,
+      "back_color": "0,0,0,1"
+    },
+    "set_1": {
+      "engine_model": "Editor",
+      "screen_width": 0.2,
+      "screen_height": 0.4,
+      "back_color": "0,0,0,1"
+    }
+  },
+  "shader_path" : {
+    "path_0" : {
+      "UI" : ["/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/SystemDocuments/ShaderDocuments/UIShader/UI.vertex","/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/SystemDocuments/ShaderDocuments/UIShader/UI.fragment"]
+    },
+    "path_1" : {
+      "UI" : ["/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/SystemDocuments/ShaderDocuments/UIShader/UI.vertex","/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/SystemDocuments/ShaderDocuments/UIShader/UI1.fragment"]
+    }
+  }
 }

@@ -17,7 +17,7 @@ enum LogState
 
 class GameLog {
 public:
-    static void LogError(std::string errorFunc,std::string context);
+    static void LogError(std::string errorFunc,std::string context,bool needFull = true);
     static void LogWarning(std::string errorFunc,std::string context);
     static void SetLogState(LogState state);
 private:

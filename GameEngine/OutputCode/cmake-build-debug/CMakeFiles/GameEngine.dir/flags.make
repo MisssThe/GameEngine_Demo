@@ -13,5 +13,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/usr/local/Cellar/glew/2.2.0_1/include/GL -I/usr/local/Cellar/glfw/3.3.4/include/GLFW -I//usr/local/Cellar/glad/include/glad -I/usr/local/Cellar/glad/include/KHR -I/usr/local/Cellar/jsoncpp/1.9.4_1/include/json -I/usr/local/Cellar/assimp/5.0.1/include -I/usr/local/Cellar/glm/0.9.9.8/include -I/usr/local/Cellar/stb_image/include
 
-CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++17
 

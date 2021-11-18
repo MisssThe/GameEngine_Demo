@@ -10,10 +10,12 @@ std::string GameLog::logWarningPath = "/Users/tandijie/MisThe/GameEngine/BaseCod
 LogState GameLog::logState = LogState::EDITOR;
 //----------------------------------   static element   ----------------------------------
 
-void GameLog::LogError(std::string errorFunc,std::string context)
+void GameLog::LogError(std::string errorFunc,std::string context,bool needFull)
 {
     if (context.empty())
     {
+        if (!needFull)
+            return;
         context = "存入一次无内容错误";
     }
     std::string nowTime = Time::GetTimeStr();

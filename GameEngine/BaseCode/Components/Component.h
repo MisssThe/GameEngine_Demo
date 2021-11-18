@@ -9,6 +9,10 @@ class Component
 {
 public:
     virtual void Use() = 0;
+    virtual ~Component()
+    {
+
+    }
 };
 
 #endif //GAMEENGINE_COMPONENT_H

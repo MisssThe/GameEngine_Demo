@@ -261,6 +261,123 @@ CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/sce
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.s
 
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp.o: CMakeFiles/GameEngine.dir/flags.make
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp.o: /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp.o -c /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp > CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp.i
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp.s
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp.o: CMakeFiles/GameEngine.dir/flags.make
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp.o: /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp.o -c /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp > CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp.i
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp.s
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp.o: CMakeFiles/GameEngine.dir/flags.make
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp.o: /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp.o -c /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp > CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp.i
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp.s
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp.o: CMakeFiles/GameEngine.dir/flags.make
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp.o: /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp.o -c /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp > CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp.i
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp.s
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp.o: CMakeFiles/GameEngine.dir/flags.make
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp.o: /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp.o -c /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp > CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp.i
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp.s
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp.o: CMakeFiles/GameEngine.dir/flags.make
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp.o: /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp.o -c /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp > CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp.i
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp.s
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp.o: CMakeFiles/GameEngine.dir/flags.make
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp.o: /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp.o -c /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp > CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp.i
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp.s
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp.o: CMakeFiles/GameEngine.dir/flags.make
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp.o: /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp.o -c /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp > CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp.i
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp.s
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp.o: CMakeFiles/GameEngine.dir/flags.make
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp.o: /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp.o -c /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp > CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp.i
+
+CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp -o CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp.s
+
 # Object files for target GameEngine
 GameEngine_OBJECTS = \
 "CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/main.cpp.o" \
@@ -277,7 +394,16 @@ GameEngine_OBJECTS = \
 "CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/GraphEngine.cpp.o" \
 "CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.o" \
 "CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.o" \
-"CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.o"
+"CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.o" \
+"CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp.o" \
+"CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp.o" \
+"CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp.o" \
+"CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp.o" \
+"CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp.o" \
+"CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp.o" \
+"CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp.o" \
+"CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp.o" \
+"CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp.o"
 
 # External object files for target GameEngine
 GameEngine_EXTERNAL_OBJECTS =
@@ -297,12 +423,21 @@ GameEngine: CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/
 GameEngine: CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/Mesh/MeshFilter.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/Function/Material.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/scene.cpp.o
+GameEngine: CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/ShowWindow.cpp.o
+GameEngine: CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/UILayout.cpp.o
+GameEngine: CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/q.cpp.o
+GameEngine: CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/BasePipeline.cpp.o
+GameEngine: CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/GraphEngine/ShaderController.cpp.o
+GameEngine: CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/Components/UI/ExtendUI/UIButton.cpp.o
+GameEngine: CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/EventCenter.cpp.o
+GameEngine: CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/CommonUtils/TypeCaster.cpp.o
+GameEngine: CMakeFiles/GameEngine.dir/Users/tandijie/GameEngine_Demo/GameEngine/BaseCode/EngineFramework/PsychoEngine/Transform.cpp.o
 GameEngine: CMakeFiles/GameEngine.dir/build.make
 GameEngine: /usr/local/Cellar/glfw/3.3.4/lib/libglfw.3.3.dylib
 GameEngine: /usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib
 GameEngine: /usr/local/Cellar/jsoncpp/1.9.4_1/lib/libjsoncpp.24.dylib
 GameEngine: CMakeFiles/GameEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable GameEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tandijie/GameEngine_Demo/GameEngine/OutputCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable GameEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
