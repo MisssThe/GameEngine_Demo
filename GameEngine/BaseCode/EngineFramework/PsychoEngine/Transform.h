@@ -21,6 +21,10 @@ public:
 
     }
 private:
+    glm::fvec3 position;
+    glm::fvec3 rotation;
+    glm::fvec4 quaternion;
+    glm::fvec3 scale;
 };
 
 
